@@ -7,6 +7,24 @@ body {
   background-size: cover;
 }
 
+.button{
+  color:rgb(0, 0, 0);
+  font-size: 1rem;
+  background:#ebebeb;
+  border-radius: 30px;
+  transition: 0.5s;
+  padding: 10px 20px 10px 20px;
+}
+.button:hover {
+ padding: 11px 25px 11px 25px;
+ transition: 0.3s ease;
+ cursor: pointer;
+}
+
+
+
+
+
 #wrapper {
   position: relative;
   display: flex;
